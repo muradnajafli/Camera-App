@@ -14,10 +14,7 @@ import android.content.pm.PackageManager.PERMISSION_GRANTED
  * Put your code here.
  */
 class MainActivity : CameraActivity() {
-
     override lateinit var previewView: PreviewView
-    private val CAMERA_PERMISSION_REQUEST_CODE = 101
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
